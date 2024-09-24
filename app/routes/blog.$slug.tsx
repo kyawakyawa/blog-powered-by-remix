@@ -3,7 +3,7 @@ import * as React from "react";
 import { getMDXComponent } from "mdx-bundler/client";
 import { json } from "@remix-run/node";
 import { useLoaderData } from "@remix-run/react";
-import { bundleBlogPost } from "./blog.server"
+import { bundleBlogPost } from "../.server/blog"
 import { motion, useAnimation } from "framer-motion";
 import { GoBackHome } from "../components/GoBackHome";
 

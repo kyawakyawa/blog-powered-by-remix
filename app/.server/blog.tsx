@@ -24,4 +24,4 @@ export const bundleBlogPost = async () => {
   });
 
   return bundled;
-};
+}
